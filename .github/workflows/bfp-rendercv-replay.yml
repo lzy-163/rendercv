@@ -1,0 +1,7 @@
+name: RenderCV D06 replay
+on: pull_request
+permissions:
+  contents: write
+jobs:
+  update-files:
+    uses: ./.github/workflows/update-files.yaml
